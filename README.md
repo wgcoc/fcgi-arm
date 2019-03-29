@@ -19,7 +19,7 @@ ARM-Linux:
 
     ./configure --host=交叉编译工具前缀名 --prefix=安装路径
 
-    sudo -i       #为避免找不到交叉编译器，切换权限
+    sudo -i       #为避免找不到交叉编译器，切换权限。参考https://blog.csdn.net/tgdzsjh/article/details/88392803
 
     make
 
