@@ -16,9 +16,13 @@ Basic Directions
 ----------------
 ARM-Linux:
     ./autogen.sh  #生成Makefile文件
+
     ./configure --host=交叉编译工具前缀名 --prefix=安装路径
+
     sudo -i       #为避免找不到交叉编译器，切换权限
+
     make
+
     make install
 
     一种编译方式举例：
